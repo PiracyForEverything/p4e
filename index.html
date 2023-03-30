@@ -829,6 +829,12 @@
     homeButton.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
+        const overlay = document.querySelector('.overlay');
+const closeButton = document.querySelector('#close-overlay');
+
+closeButton.addEventListener('click', () => {
+  overlay.style.display = 'none';
+});
     </script>
 
 </body>
