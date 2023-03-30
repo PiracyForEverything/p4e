@@ -17,8 +17,8 @@
 </head>
 
 <body>
-    
-        <div class="overlay">
+
+    <div class="overlay">
         <div class="content">
           <h1>DISCLAIMER</h1>
           <p>A fair use is a legally permissible use that would otherwise be infringing.
@@ -29,7 +29,8 @@
           <button id="close-overlay">I understand</button>
         </div>
       </div>
-    
+      
+
     <header>
         <h1> <a href="http://"> Piracy For Everything</a></h1>
         <p>Piracy is our only option</p>
@@ -829,12 +830,15 @@
     homeButton.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
-        const overlay = document.querySelector('.overlay');
+
+const overlay = document.querySelector('.overlay');
 const closeButton = document.querySelector('#close-overlay');
 
 closeButton.addEventListener('click', () => {
   overlay.style.display = 'none';
 });
+
+
     </script>
 
 </body>
