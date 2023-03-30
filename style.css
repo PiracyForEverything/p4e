@@ -169,4 +169,26 @@ header a:active{
 
     font-family: phenomena_regular;
   }
+
+  .overlay>div>h1{
+    font-family: phenomena_bold;
+  }
+  
+  .content {
+    background-color: #fff;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .content>button{
+    background-color: #CD5888;
+    color: #fff;
+  }
+  
+  #close-overlay {
+    display: block;
+    margin: 20px auto 0;
+  }
+  
   
