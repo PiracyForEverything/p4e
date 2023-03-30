@@ -1,0 +1,172 @@
+/* FONTS */
+
+@font-face {
+    font-family: phenomena_regular;
+    src: url(Fonts/Phenomena-Regular.otf);
+}
+
+@font-face {
+    font-family: phenomena_black;
+    src: url(Fonts/Phenomena-Black.otf);
+}
+
+@font-face {
+    font-family: phenomena_extrabold;
+    src: url(Fonts/Phenomena-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: phenomena_extralight;
+    src: url(Fonts/Phenomena-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: phenomena_thin;
+    src: url(Fonts/Phenomena-Thin.otf);
+}
+
+@font-face {
+    font-family: phenomena_bold;
+    src: url(Fonts/Phenomena-Bold.otf);
+}
+
+body{
+    background-color: #20262E;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1em;
+
+    color: white;
+
+    background-image: url("Images/tumblr_o1bfx7wDnF1u77u56o1_1280\(1\).gif");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header>h1{
+
+    padding: .25em 0.5em .25em .5em;
+
+    font-family: phenomena_bold;
+    background-color: #20262E;
+    border-radius: 2em 2em 2em 2em;
+    margin-top: .5em;
+}
+
+header>p{
+    padding: .25em 0.5em .25em .5em;
+    font-family: phenomena_regular;
+    background-color: white;
+    border-radius: 2em 2em 2em 2em;
+    color: #20262E;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:active{
+    text-decoration:underline;
+    color: red;
+}
+
+.container{
+
+    font-family: phenomena_thin;
+    font-size: 1.5em;
+
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+.container>h3{
+    color: #CD5888;
+    font-family: phenomena_extrabold;
+    letter-spacing: 2px;
+}
+
+.main-contents{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: .7em;
+    align-items: self-start;
+    justify-content: space-evenly;
+}
+.left{
+    flex-basis: 40%;
+}
+.left>div{
+    margin: 2em;
+}
+.right{
+    flex-basis: 40%;
+}
+#title{
+    font-family: phenomena_bold;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    position:absolute;
+    top: -0.01em;
+    color:#0056b3;
+}
+
+#nes-container{
+    margin-bottom: 1.3em;
+}
+#nes-container:hover{
+    transform: scale(1.05);
+    transform-origin: bottom;
+}
+@media (max-width:500px) {
+    .main-contents{
+        flex-direction: column;
+    }
+}
+
+
+.section{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-around;
+    width: 100%;
+
+    text-align: center;
+}
+
+.row-1{
+    flex-basis: 45%;
+}
+.row-2{
+    flex-basis: 45%;
+}
+
+.overflow-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    padding: 10px;
+    border-radius: 25%;
+    background-color: #CD5888;
+    color: #20262E;
+    font-size:1.3em;
+    border: none;
+    cursor: pointer;
+
+    font-family: phenomena_regular;
+  }
+  
