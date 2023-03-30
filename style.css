@@ -169,8 +169,26 @@ header a:active{
 
     font-family: phenomena_regular;
   }
+  
 
-.overlay>div>h1{font-family: phenomena_bold;}
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: phenomena_regular;
+  }
+
+.overlay>div>h1{
+    font-family: phenomena_bold;
+}
   
 .content {
     background-color: #fff;
@@ -187,4 +205,5 @@ header a:active{
 #close-overlay {
     display: block;
     margin: 20px auto 0;
-  }
+}
+  
