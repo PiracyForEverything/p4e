@@ -206,4 +206,17 @@ header a:active{
     display: block;
     margin: 20px auto 0;
 }
-  
+
+footer{
+    display: flexbox;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    color: grey;
+    text-align: center;
+}
+footer>p{
+    font-family: phenomena_thin;
+    margin: 0;
+    font-size: 1.3em;
+}
